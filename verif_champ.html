@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jeux !</title>
+<link rel="stylesheet" href="style.css" />
+
+<script src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="jquery_test.js"></script>
+
+<script>
+
+
+
+
+      $(document).ready( function (){
+     
+       var $input = $('#okay') ;
+           $bnt1  = $('#btn1') ;
+           $bnt2  = $('#btn2') ;
+           $p     = $('#p') ;
+           $h     = $('h2') ;
+           $lb     = $('#lb') ;
+
+
+
+
+
+       
+        $("#btn2").click(function(){
+        $p.hide();
+        $h.hide();
+        $lb.hide();
+        $input.hide();
+        $bnt1.hide();
+        });
+
+
+        $($input).click(function() {
+        
+
+
+        });
+
+    });
+
+
+
+   /*
+    $("#btn1").click(function(){
+    
+    
+      $("#input_text").css({
+      "border: 2px solid red;" 
+    });*/
+  
+
+});
+
+
+</script>
+</head>
+<body >
+   <h2 id="h2">  Formulaire  !!</h2>
+
+    <center> 
+      <br><br> <br> 
+
+      <p id="p"> Bonjour !!! </p>
+
+        <label id="lb"> <b> Texte : </b> </label><input type="text" id="input_text" > <br> <br> 
+
+      <input  id="okay" type="button" value="OK" >  <br> <br> 
+
+      
+      <input  id="btn1" type="button" value="hello" > 
+
+       <button id="btn2" > B2 </button> 
+
+    </center>
+
+
+
+  
+</center>
+</body>
+</html

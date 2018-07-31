@@ -1,0 +1,19 @@
+
+ssl 
+
+
+ssl https  
+
+   s web 
+    . cert 
+    .pri key 
+    . pub key 
+
+
+chrome verif certi 
+
+
+server appache 
+     ngin X 
+     RAID :  disque dur 
+ 
